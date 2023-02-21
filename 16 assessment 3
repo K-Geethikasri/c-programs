@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+  int x,y;
+long double r;
+   r=1.0
+   printf("enter x,y values");
+   Scanf("%d%d",&x,&y);
+   While(y!=0)
+{
+   r*=x;
+   y--;
+}
+ printf("%0Lf",r);
+
+   return 0;
+}
+  
+ Output 
+ Enter x,y values 2 5
+  2 5
+  3.2000000
